@@ -1,0 +1,202 @@
+.html,body {
+    padding: 0;
+    margin: 0;
+}
+
+#container {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(24, 24, 24);
+    color: rgb(228, 231, 231);
+    font-family: "PT Sans";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#display {
+    position: absolute;
+    top: 1.2vw;
+    left: 1.2vw;
+    width: 97.6%;
+    height: 70%;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgb(162, 162, 162);
+    border-radius: 1vw;
+}
+
+#Current_Balance {
+    position: absolute;
+    top: 2%;
+    left: 0.75%;
+    background-color: rgb(39, 119, 39);
+    border: 1px solid rgb(134, 134, 134);
+    height: 12%;
+    width: 98.5%;
+    border-radius: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Current_Balance:hover {
+    background-color: rgb(35, 108, 35);
+    border: 1px solid rgb(35, 108, 35);
+}
+
+#heading {
+    font-size: 2vw;
+    padding: 1.2vw;
+}
+
+#balance {
+    font-size: 2vw;
+    padding: 1.2vw;
+}
+
+#Header {
+    position: absolute;
+    top: 16.5%;
+    left: 0.75%;
+    background-color: rgb(33, 33, 33);
+    border: 1px solid rgb(134, 134 ,134);
+    height: 8.5%;
+    width: 98.5%;
+    border-radius: 0.8vw;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+#Header:hover {
+    background-color: rgb(37, 37, 37);
+}
+
+.headers {
+    font-size: 18px;
+    text-align: left;
+}
+
+#manage {
+    position: absolute;
+    top: 75%;
+    left: 1.2vw;
+    width: 97.6%;
+    height: 22%;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgb(162, 162, 162);
+    border-radius: 1vw;
+}
+
+.label {
+    position: absolute;
+    font-size: 1.5vw;
+    left: 3%;
+    top: 19%;
+}
+
+.label:hover {
+    color: rgb(207, 207, 207);
+}
+
+#Name {
+    position: absolute;
+    top: 19%;
+    left: 8.5%;
+    background-color: rgb(24, 24, 24);
+    border-radius: 4px;
+    border: none;
+    height: 2vw;
+    width: 23vw;
+    padding-left: 0.7vw;
+    font-size: 1.3vw;
+    color: rgb(228, 231, 231);
+}
+
+#Name:hover {
+    background-color: rgb(32, 32, 32);
+}
+
+.label1 {
+    position: absolute;
+    font-size: 1.5vw;
+    left: 35%;
+    top: 19%;
+}
+
+.label1:hover {
+    color: rgb(207, 207, 207);
+}
+
+#Amount {
+    position: absolute;
+    top: 19%;
+    left: 41.5%;
+    background-color: rgb(24, 24, 24);
+    border-radius: 4px;
+    border: none;
+    height: 2vw;
+    width: 23vw;
+    padding-left: 0.7vw;
+    font-size: 1.3vw;
+    color: rgb(228, 231, 231);
+}
+
+#Amount:hover {
+    background-color: rgb(32, 32, 32);
+}
+
+.button1 {
+    position: absolute;
+    top: 54%;
+    left: 3%;
+    background-color: rgb(39, 119, 39);
+    border: none;
+    height: 6vh;
+    width: 30%;
+    border-radius: 1.3vh;
+    color: rgb(255, 255, 255);
+    font-size: 1.3vw;
+    cursor: pointer;
+}
+
+.button1:hover {
+    background-color: rgb(35, 108, 35);
+}
+
+.button2 {
+    position: absolute;
+    top: 54%;
+    left: 35%;
+    background-color: rgb(39, 119, 39);
+    border: none;
+    height: 6vh;
+    width: 30%;
+    border-radius: 1.3vh;
+    color: rgb(255, 255, 255);
+    font-size: 1.3vw;
+    cursor: pointer;
+}
+
+.button2:hover {
+    background-color: rgb(35, 108, 35);
+}
+
+.button3 {
+    position: absolute;
+    top: 54%;
+    left: 67%;
+    background-color: rgb(39, 119, 39);
+    border: none;
+    height: 6vh;
+    width: 30%;
+    border-radius: 1.3vh;
+    color: rgb(255, 255, 255);
+    font-size: 1.3vw;
+    cursor: pointer;
+}
+
+.button3:hover {
+    background-color: rgb(35, 108, 35);
+}
